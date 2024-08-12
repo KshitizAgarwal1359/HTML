@@ -41,3 +41,23 @@ h2{
     position: sticky;
     top: 10px;
 }
+a{
+    color:red;
+    text-decoration: none;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+[target="_blank"]::after{
+    content: "";
+    display: inline-block;
+    color: blue;
+    width: 10px;
+    height: 10px;
+    background: url(./newtab.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto 5px;
+}
