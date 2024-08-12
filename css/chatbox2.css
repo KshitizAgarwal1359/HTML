@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.chat-container {
+    width: 350px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(203, 4, 4, 0.932);
+    overflow: hidden;
+}
+
+.chat-box { 
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.message {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.sender {
+    display: flex;
+    align-items: flex-start;
+}
+
+.sender-info {
+    display: flex;
+    align-items: center;
+}
+
+.sender-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.sender-info span {
+    font-weight: bold;
+    color: #333;
+}
+
+.message-content {
+    background-color: #15b877;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 80%;
+    position: relative;
+}
+
+.message-content::before {
+    content: "";
+    position: absolute;
+    top: 10px; /* Adjusts the vertical position of the triangle */
+    left: -10px; /* Adjusts the horizontal position of the triangle */
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent #e0e0ff transparent transparent;
+}
+
+.time-stamp {
+    font-size: 12px;
+    color: gray;
+    margin-top: 5px;
+}
+
+.receiver {
+    background-color: #f0f0f5;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 80%;
+    margin-left: auto;
+    position: relative;
+}
+
+.message-input {
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    background-color: #fafafa;
+    display: flex;
+}
+
+.message-input input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+}

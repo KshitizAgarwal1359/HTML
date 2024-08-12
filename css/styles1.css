@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+#card{
+    display: inline-block;
+    size: 60px;
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(218, 14, 229);
+    position: relative;
+
+}
+#card #img{
+    height: 100px;
+    width: auto;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-top: 10px;
+}
+p{
+    font-style: italic;
+    margin-left: auto;
+    margin-left: 20px;
+    margin-right: auto;
+
+}
+#anime{
+    position: absolute;
+    background: aqua;
+    top: 0;
+    border: 2px;
+    display: inline-block;
+    right: 0;
+}
+h2{
+    background-color: aqua;
+}
+#section{
+    position: sticky;
+    top: 10px;
+}
