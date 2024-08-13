@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(4, 20, 122)
+}
+h1{
+    color: white;
+    text-align: center;
+}
+p{
+    color: white;
+    text-align: center;
+}
+.row1{
+    margin-top: 60px;
+    margin-left: 450px;
+    margin-right: auto;
+}
+.row2{
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: 500px;
+  margin-bottom: 30px;
+}
+.row3{
+    margin-left: 530px;
+    margin-right: auto;
+
+}
+.steps{
+    margin-left: 400px;
+    color: white;
+}
+input{
+    background-color: rgb(152, 236, 247);
+    border: none;
+    border-radius: 1px 30px 15px 30px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+input:hover{
+    background-color: rgb(226, 12, 219);
+    color: black;
+}

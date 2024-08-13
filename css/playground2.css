@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    color: aqua;
+}
+p{
+    text-align: center;
+    color: aliceblue;
+
+}
+.color{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border-radius: 5px;
+}
+.input{
+    margin-top: 50px;
+    margin-left: 600px;
+    margin-right: auto;
+}
+.input input:hover{
+    background-color: aqua;
+    color: red;
+}
+.button{
+    margin-top: 20px;
+    margin-left: 490px;
+}
+input{
+    height: 40px;
+    border-style: solid;
+}
+.button input:hover{
+    background-color: rgb(235, 13, 13);
+    color: aliceblue;
+    box-shadow: 0 0 20px red;
+}
+p{
+    text-align: center;
+}

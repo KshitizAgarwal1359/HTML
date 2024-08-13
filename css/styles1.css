@@ -44,12 +44,13 @@ h2{
 a{
     color:red;
     text-decoration: none;
+    display: block;
 
 }
 a:hover{
     text-decoration: underline;
 }
-[target="_blank"]::after{
+[target]::after{
     content: "";
     display: inline-block;
     color: blue;
